@@ -1,0 +1,352 @@
+
+
+
+body{
+
+    background-color: none;
+}
+
+
+
+html,body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    font-size: 1.9rem;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 15px;
+    color: whitesmoke;
+}
+
+ul,li{
+   list-style: none;
+}
+li,a{
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    text-transform: capitalize;
+}
+a{
+    font-size: 30px;
+}
+a:hover{
+    color: red;
+}
+.btn:hover{
+    background-color: rgb(106, 228, 90);
+    color: blue;
+}
+
+.showcase{
+    background-image: url(pexels-pixabay-39284.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    border-bottom-right-radius: 50px;
+    
+
+}
+.super-text{
+    text-align: center;
+    padding-top: 300px;
+
+}
+h1{
+    font-size: 3rem;
+    color: rgb(226, 64, 64);
+}
+h3{
+    color: limegreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.btn.navbar{
+    color: black;
+    background-color:black;
+}
+
+
+
+
+
+
+.center-container >.discription{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: black;
+   
+    border: none;
+    border-radius: 30px;
+
+    
+}
+.img{
+    border-radius: 30px;
+}
+
+#ddr{
+    box-sizing: border-box;
+    padding: 28px;
+}
+
+#ddr >h2{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: mediumpurple;
+}
+
+
+#ddr >p{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif ;
+}
+.discription,p,h2,button{
+  display: block;
+  
+   
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+ 
+}
+.img1,.img2,.img3,.img4{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 10px 8px darkgray;
+}
+
+.footer{
+   height: 400px;
+    background-color: darkslateblue;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    line-height: 1px;
+
+}
+.footer > .footer-details{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top:90px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1px;
+}
+.contact >.contact-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-end;
+    align-items: center;
+     max-height: 100vh;
+}
+
+.column{
+    max-width: 80%;
+    display:grid;
+    grid-template-columns: 5fr;
+    padding: 20px 10px; 
+    border: none;
+    box-shadow: 3px 10px 8px 10px darkgray;
+    margin-top: 30px;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: blue;
+    border-bottom: 2px solid red;
+
+    
+
+ 
+}
+
+span a{
+    color: red;
+    
+}
+
+.codecademy{
+   border: none;
+   border-radius: 20px;
+   width: 80%;
+   height: 50vh;
+   text-align: center;
+   padding-top: 180px;
+   box-shadow: 3px 10px 8px darkgray;
+}
+
+/* about page */
+.information{
+    margin: 30px 50px;
+}
+.information .info-section{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 0;
+    border: none;
+    border-radius: 30px;
+}
+
+.main{
+    padding-left: 30px;
+}
+.main > h3{
+    text-decoration: underline;
+}
+
+/* sevices */
+.services{
+    background-image: url(pexels-ovan-57690.jpg);
+   height: 700px;
+    width: 100%;
+ 
+}
+.data > h2{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+   
+}
+.data > .information{
+    color: rgb(67, 220, 20);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.data > .programs{
+    font-size: 20px;
+    color: white;
+
+}
+
+.services >.data{
+ padding-left: 100px;
+ padding-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+.logo{
+    font-size: 20px;
+}
+li,a{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    text-align: center;
+    margin-left: 60px;
+   
+}
+.image{
+    max-width: 650px;
+}
+.contact >.contact-page{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.contact{
+    margin-top: 400px;
+}    
+
+.column{
+    margin-top: 30px;
+}
+.codecademy{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.info-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.info-section > .my_list li{
+    width: 100%;
+display: inline-block;
+}
+}
+
+
+
+@media (max-width:1200px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-color:black;
+        color: white;
+        transition-duration: 2s;
+
+    }
+    .info-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    
+
+}
